@@ -3,6 +3,14 @@
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Session;
 
+use function Laravel\Folio\middleware;
+use function Laravel\Folio\name;
+use function Livewire\Volt\rules;
+
+middleware(['auth']);
+
+name('home');
+
 $logout = function () {
     Auth::guard('web')->logout();
 
