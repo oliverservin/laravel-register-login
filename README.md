@@ -11,3 +11,10 @@ Puedes crear un nuevo proyecto via composer:
 ```bash
 composer create-project oliverservin/laravel-register-login
 ```
+
+## Stack
+
+- [Laravel Folio](https://laravel.com/docs/10.x/folio)
+- [Laravel Volt](https://livewire.laravel.com/docs/volt)
+- [Pest PHP](https://pestphp.com)
+- [Tailwind CSS](https://tailwindcss.com)
