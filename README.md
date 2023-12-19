@@ -3,3 +3,11 @@
 En ocasiones Laravel Breeze da más de lo que necesito.
 Hay proyectos en los que simplemente quiero una página de registro y de inicio de sesión.
 Este proyecto es justamento eso.
+
+## Instalación
+
+Puedes crear un nuevo proyecto via composer:
+
+```bash
+composer create-project oliverservin/laravel-register-login
+```
